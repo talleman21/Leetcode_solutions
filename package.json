@@ -1,0 +1,27 @@
+{
+  "name": "jslinkedlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "linkedList.js",
+  "scripts": {
+    "start": "nodemon mergeSortLL.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talleman21/linked_lists.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talleman21/linked_lists/issues"
+  },
+  "homepage": "https://github.com/talleman21/linked_lists#readme",
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
