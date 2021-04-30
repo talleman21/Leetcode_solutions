@@ -1,10 +1,10 @@
 {
   "name": "jslinkedlist",
   "version": "1.0.0",
-  "description": "",
+  "description": "Typescript algorithm exercises",
   "main": "linkedList.js",
   "scripts": {
-    "start": "nodemon mergeSortLL.ts",
+    "start": "nodemon ./LinkedList/mergeSortLL.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

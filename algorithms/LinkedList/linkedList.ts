@@ -1,6 +1,6 @@
 // practice session to understand linked lists
 
-interface IListNode{
+export interface IListNode{
   data:number
   next:IListNode|null
 }
@@ -14,7 +14,7 @@ export interface ILinkedList{
   push(num:number):ILinkedList
 }
 
-class ListNode implements IListNode{
+export class ListNode implements IListNode{
   data:number
   next:ListNode|null
 
@@ -25,11 +25,21 @@ class ListNode implements IListNode{
 }
 
 
-class LinkedList implements ILinkedList {
+export class LinkedList implements ILinkedList {
   head:ListNode|null
 
   constructor(head:ListNode|null = null){
     this.head = head
+  }
+
+  print(){
+    let node = this.head
+    while (node){
+      process.stdout.write(node.data + '->')
+      node = node.next
+    }
+    console.log('null')
+    return this
   }
 
   size(){
@@ -44,6 +54,7 @@ class LinkedList implements ILinkedList {
 
   clear(){
     this.head=null
+    return this
   }
 
   getLast(){
