@@ -5,6 +5,7 @@
   "main": "linkedList.js",
   "scripts": {
     "start": "nodemon ./LinkedList/mergeSortLL.ts",
+    "romanToInt" : "nodemon ./algorithms/roman_to_integer.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
