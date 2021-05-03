@@ -1,1 +1,1 @@
-# linked_lists
+# Algorithms
